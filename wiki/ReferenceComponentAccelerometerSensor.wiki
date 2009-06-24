@@ -1,0 +1,97 @@
+#summary Reference: AccelerometerSensor - Sensor that can detect shaking and measure acceleration in 3 dimensions
+
+,,namespace com.google.devtools.simple.runtime.components,,
+= !AccelerometerSensor =
+
+Sensor that can detect shaking and measure acceleration in 3 dimensions.
+
+==== Events ====
+[ReferenceComponentAccelerometerSensor#Initialize Initialize]
+         Initialization event.
+[ReferenceComponentAccelerometerSensor#AccelerationChanged AccelerationChanged]
+          Acceleration change event.
+[ReferenceComponentAccelerometerSensor#Shaking Shaking]
+          Shaking event.
+
+==== Properties ====
+[ReferenceComponentAccelerometerSensor#Available Available]
+          Available property (read-only property).
+[ReferenceComponentAccelerometerSensor#Enabled Enabled]
+          Enabled property.
+[ReferenceComponentAccelerometerSensor#XAccel XAccel]
+          X acceleration property (read-only property).
+[ReferenceComponentAccelerometerSensor#YAccel YAccel]
+          Y acceleration property (read-only property).
+[ReferenceComponentAccelerometerSensor#ZAccel ZAccel]
+          Z acceleration property (read-only property).
+----
+=== Initialize ===
+
+{{{
+Event Initialize()
+}}}
+
+    Event raised upon component initialization.
+----
+=== !AccelerationChanged ===
+
+{{{
+Event AccelerationChanged(xAccel As Single, yAccel As Single, zAccel As Single)
+}}}
+
+    Event raised when the acceleration in any of the 3 dimensions changes.
+
+    Parameters:
+        xAccel - acceleration minus Gx on the x-axis<br>
+        yAccel - acceleration minus Gy on the y-axis<br>
+        zAccel - acceleration minus Gz on the z-axis
+----
+=== Shaking ===
+
+{{{
+Event Shaking()
+}}}
+
+    Event raised when the device is being shaken.
+----
+=== Available ===
+
+{{{
+Property Available As Boolean
+}}}
+
+    Indicates whether the sensor is available on the device running the application (read-only property).
+
+----
+=== Enabled ===
+
+{{{
+Property Enabled As Boolean
+}}}
+
+    Reading from the Enabled property indicates whether the sensor is generating data.
+    Writing to the Enabled property will turn sensor data generation on or off.
+----
+=== XAccel ===
+
+{{{
+Property XAccel As Single
+}}}
+
+    Most recent x acceleration value (read-only property).
+----
+=== YAccel ===
+
+{{{
+Property YAccel As Single
+}}}
+
+    Most recent y acceleration value (read-only property).
+----
+=== ZAccel ===
+
+{{{
+Property ZAccel As Single
+}}}
+
+    Most recent z acceleration value (read-only property).
