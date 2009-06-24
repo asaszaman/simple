@@ -72,37 +72,45 @@ Static Sub Rename(oldname As String, newname As String)
     Parameters:
         oldname - file name before renaming
         newname - file name after renaming
-
+----
 === Delete ===
 
-public static void Delete(java.lang.String name)
+{{{
+Static Sub Delete(name As String)
+}}}
 
     Deletes a file.
 
     Parameters:
         name - name of file to delete
+----
+=== Mkdir ===
 
-Mkdir
-
-public static void Mkdir(java.lang.String name)
+{{{
+Static Sub Mkdir(name As String)
+}}}
 
     Creates a new directory.
 
     Parameters:
         name - name of new directory
+----
+=== Rmdir ===
 
-Rmdir
-
-public static void Rmdir(java.lang.String name)
+{{{
+Static Sub Rmdir(name As String)
+}}}
 
     Deletes a directory.
 
     Parameters:
         name - name of directory to delete
+----
+=== !IsDirectory ===
 
-IsDirectory
-
-public static boolean IsDirectory(java.lang.String name)
+{{{
+Static Function IsDirectory(name As String) As Boolean
+}}}
 
     Checks whether the given name is the name of an existing directory. Causes a runtime error if the directory doesn't exist.
 
@@ -110,10 +118,12 @@ public static boolean IsDirectory(java.lang.String name)
         name - name to check 
     Returns:
         true if the name belongs to an existing directory, false otherwise
+----
+=== Exists ===
 
-Exists
-
-public static boolean Exists(java.lang.String name)
+{{{
+Static Function Exists(name As String) As Boolean
+}}}
 
     Checks whether a file or directory exists.
 
@@ -121,10 +131,12 @@ public static boolean Exists(java.lang.String name)
         name - file to check 
     Returns:
         true if the file or directory exists, false otherwise
+----
+=== Open ===
 
-Open
-
-public static int Open(java.lang.String name)
+{{{
+Static Function Open(name As String) As Integer
+}}}
 
     Opens an existing file or creates a new file for reading or writing.
 
@@ -132,19 +144,23 @@ public static int Open(java.lang.String name)
         name - name of file to open or create 
     Returns:
         file handle
+----
+=== Close ===
 
-Close
-
-public static void Close(int handle)
+{{{
+Static Sub Close(handle As Integer)
+}}}
 
     Closes a file previously opened.
 
     Parameters:
         handle - handle of file to close
+----
+=== Eof ===
 
-Eof
-
-public static boolean Eof(int handle)
+{{{
+Static Function Eof(handle As Integer) As Boolean
+}}}
 
     Checks whether the current file position is at the end of the file.
 
@@ -152,11 +168,12 @@ public static boolean Eof(int handle)
         handle - handle of file to check 
     Returns:
         true if the end of the file was reaches, false otherwise
+----
+=== Seek ===
 
-Seek
-
-public static long Seek(int handle,
-                        long offset)
+{{{
+Static Function Seek(handle As Integer, offset As Long) As Long
+}}}
 
     Positions the file pointer to an absolute position.
 
@@ -165,10 +182,12 @@ public static long Seek(int handle,
         offset - absolute position within file 
     Returns:
         new position within file
+----
+=== Size ===
 
-Size
-
-public static long Size(int handle)
+{{{
+Static Function Size(handle As Integer) As Long
+}}}
 
     Returns the size of a file.
 
@@ -176,21 +195,24 @@ public static long Size(int handle)
         handle - handle of file 
     Returns:
         file size
+----
+=== !WriteString ----
 
-WriteString
-
-public static void WriteString(int handle,
-                               java.lang.String value)
+{{{
+Static Sub WriteString(handle As Integer, value As String)
+}}}
 
     Writes a String to a file.
 
     Parameters:
         handle - handle of file
         value - value to write
+----
+=== !ReadString ===
 
-ReadString
-
-public static java.lang.String ReadString(int handle)
+{{{
+Static Function ReadString(handle As Integer) As String
+}}
 
     Reads a String value from a file.
 
@@ -198,21 +220,24 @@ public static java.lang.String ReadString(int handle)
         handle - handle of file 
     Returns:
         value read
+----
+=== !WriteBoolean ===
 
-WriteBoolean
-
-public static void WriteBoolean(int handle,
-                                boolean value)
+{{{
+Static Sub WriteBoolean(handle As Integer, value As Boolean)
+}}}
 
     Writes a Boolean value to a file.
 
     Parameters:
         handle - handle of file
         value - value to write
+----
+=== !ReadBoolean ===
 
-ReadBoolean
-
-public static boolean ReadBoolean(int handle)
+{{{
+Static Function ReadBoolean(handle As Integer) As Boolean
+}}}
 
     Reads a Boolean value from a file.
 
@@ -220,21 +245,24 @@ public static boolean ReadBoolean(int handle)
         handle - handle of file 
     Returns:
         value read
+----
+=== !WriteByte ===
 
-WriteByte
-
-public static void WriteByte(int handle,
-                             byte value)
+{{{
+Static Sub WriteByte(handle As Integer, value As Byte)
+}}}
 
     Writes a Byte value to a file.
 
     Parameters:
         handle - handle of file
         value - value to write
+----
+=== !ReadByte ===
 
-ReadByte
-
-public static byte ReadByte(int handle)
+{{{
+Static Function ReadByte(handle As Integer) As Byte
+}}}
 
     Reads a Byte value from a file.
 
@@ -242,21 +270,24 @@ public static byte ReadByte(int handle)
         handle - handle of file 
     Returns:
         value read
+----
+=== !WriteShort ===
 
-WriteShort
-
-public static void WriteShort(int handle,
-                              short value)
+{{{
+Static Sub WriteShort(handle As Integer, value As Short)
+}}}
 
     Writes a Short value to a file.
 
     Parameters:
         handle - handle of file
         value - value to write
+----
+=== !ReadShort ===
 
-ReadShort
-
-public static short ReadShort(int handle)
+{{{
+Static Function ReadShort(handle As Integer) As Short
+}}}
 
     Reads a Short value from a file.
 
@@ -264,21 +295,24 @@ public static short ReadShort(int handle)
         handle - handle of file 
     Returns:
         value read
+----
+=== !WriteInteger ===
 
-WriteInteger
-
-public static void WriteInteger(int handle,
-                                int value)
+{{{
+Static Sub WriteInteger(handle As Integer, value As Integer)
+}}}
 
     Writes an Integer boolean value to a file.
 
     Parameters:
         handle - handle of file
         value - value to write
+----
+=== !ReadInteger ===
 
-ReadInteger
-
-public static int ReadInteger(int handle)
+{{{
+Static Function ReadInteger(handle As Integer) As Integer
+}}}
 
     Reads an Integer value from a file.
 
@@ -286,21 +320,24 @@ public static int ReadInteger(int handle)
         handle - handle of file 
     Returns:
         value read
+----
+=== !WriteLong ===
 
-WriteLong
-
-public static void WriteLong(int handle,
-                             long value)
+{{{
+Static Sub WriteLong(handle As Integer, value As Long)
+}}}
 
     Writes a Long value to a file.
 
     Parameters:
         handle - handle of file
         value - value to write
+----
+=== !ReadLong ===
 
-ReadLong
-
-public static long ReadLong(int handle)
+{{{
+Static Function ReadLong(handle As Integer) As Long
+}}}
 
     Reads a Long value from a file.
 
@@ -308,21 +345,24 @@ public static long ReadLong(int handle)
         handle - handle of file 
     Returns:
         value read
+----
+=== !WriteSingle ===
 
-WriteSingle
-
-public static void WriteSingle(int handle,
-                               float value)
+{{{
+Static Sub WriteSingle(handle As Integer, value As Single)
+}}}
 
     Writes a Single value to a file.
 
     Parameters:
         handle - handle of file
         value - value to write
+----
+=== !ReadSingle ===
 
-ReadSingle
-
-public static float ReadSingle(int handle)
+{{{
+Static Function ReadSingle(handle As Integer) As Single
+}}}
 
     Reads a Single value from a file.
 
@@ -330,21 +370,24 @@ public static float ReadSingle(int handle)
         handle - handle of file 
     Returns:
         value read
+----
+=== !WriteDouble ===
 
-WriteDouble
-
-public static void WriteDouble(int handle,
-                               double value)
+{{{
+Static Sub WriteDouble(handle As Integer, value As Double)
+}}}
 
     Writes a Double value to a file.
 
     Parameters:
         handle - handle of file
         value - value to write
+----
+=== !ReadDouble ===
 
-ReadDouble
-
-public static double ReadDouble(int handle)
+{{{
+Static Function ReadDouble(handle As Integer) As Double
+}}}
 
     Reads a Double value from a file.
 
