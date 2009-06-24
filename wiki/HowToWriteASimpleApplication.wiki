@@ -23,7 +23,11 @@ The [http://docs.google.com/View?id=dd2q5z8t_3fjn6wxfq Simple Language Specifica
 
 == API Reference ==
 
+See the [RuntimeLibraryReference Runtime Library Reference].
+
 == Component Reference ==
+
+See the [ComponentReference Component Reference].
 
 == Creating A New Project ==
 
