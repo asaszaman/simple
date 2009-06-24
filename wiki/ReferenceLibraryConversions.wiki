@@ -13,7 +13,9 @@ Various conversion related runtime functions.
 ----
 === Asc ==
 
-`Static Function Asc(str As String) As Integer`
+{{{
+Static Function Asc(str As String) As Integer
+}}}
 
     Returns the unicode value of the first character of the given string.
 
@@ -24,7 +26,9 @@ Various conversion related runtime functions.
 ----
 === Chr ===
 
-`Static Function Chr(value As Integer) As String`
+{{{
+Static Function Chr(value As Integer) As String
+}}}
 
     Returns a string for the given unicode value.
 
@@ -35,7 +39,9 @@ Various conversion related runtime functions.
 ----
 === Hex ===
 
-`Static Function Hex(v As Variant) As String`
+{{{
+Static Function Hex(v As Variant) As String
+}}}
 
     Returns a string containing the hexadecimal value for the given value. If the given value is not w whole number then its integer part will be used.
 
