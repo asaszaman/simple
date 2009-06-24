@@ -1,6 +1,6 @@
 #summary Reference: Assertions - Checking the runtime state of an application
 
-^namespace com.google.devtools.simple.runtime^
+,,namespace com.google.devtools.simple.runtime,,
 = Assertions =
 
 Assertions allow test against assumptions about the runtime state of an application. A failing assertion will result in an AssertionFailure runtime error.
