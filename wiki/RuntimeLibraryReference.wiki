@@ -1,0 +1,43 @@
+#summary Runtime Library Reference
+
+= Functions =
+
+[ReferenceLibraryFiles Files - Various file related runtime functions]
+ 
+[ReferenceLibraryCollection Collection - Unordered set of items]
+
+[ReferenceLibraryStrings Strings - Various string related runtime functions]
+
+[ReferenceLibraryMath Math - Various mathematical runtime functions]
+
+[ReferenceLibraryLog Log - Logging related runtime functions]
+
+[ReferenceLibraryApplication Application - Various application related runtime functions]
+
+[ReferenceLibraryArrays Arrays - Various array related runtime functions]
+
+[ReferenceLibraryAssertions Assertions - Checking the runtime state of an application]
+
+[ReferenceLibraryConversions Conversions - Various conversion related runtime functions]
+
+[ReferenceLibraryDates	 Reference: Dates - Various date and time related runtime functions]
+
+= Runtime Errors =
+
+[ReferenceLibraryUnknownFileHandleError UnknownFileHandleError - Indicates usage of an unknown file handle]
+
+[ReferenceLibraryUninitializedInstanceError UninitializedInstanceError - Indicates access to uninitialized object or array variable]
+
+[ReferenceLibraryNoSuchFileError NoSuchFileError - Indicates that no file for the given name could be found]
+
+[ReferenceLibraryIllegalArgumentError IllegalArgumentError - Indicates an illegal value for a function or procedure argument]
+
+[ReferenceLibraryFileIOError FileIOError - Indicates a problem accessing a file]
+
+[ReferenceLibraryFileAlreadyExistsError FileAlreadyExistsError - Indicates a failed attempt to create a file]
+
+[ReferenceLibraryConversionError ConversionError - Indicates a failed attempt to convert a value of one type into another]
+
+[ReferenceLibraryAssertionFailure AssertionFailure - Indicates an assertion failure]
+
+[ReferenceLibraryArrayIndexOutOfBoundsError ArrayIndexOutOfBoundsError - Indicates an array access with an index that is outside of the array bound]
