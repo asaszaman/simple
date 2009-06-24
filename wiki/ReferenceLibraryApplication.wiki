@@ -1,6 +1,6 @@
 #summary Reference: Application - various application related runtime functions
 
-^namespace com.google.devtools.simple.runtime^
+,,namespace com.google.devtools.simple.runtime,,
 = Application =
 
 Various application related runtime functions.
