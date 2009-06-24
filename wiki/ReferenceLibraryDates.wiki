@@ -4,65 +4,65 @@
 
 Various date and time related runtime functions.
 
-[ReferenceLibraryDate#DATE_YEAR DATE_YEAR]
-[ReferenceLibraryDate#DATE_MONTH DATE_MONTH]
-[ReferenceLibraryDate#DATE_DAY DATE_DAY]
-[ReferenceLibraryDate#DATE_WEEK DATE_WEEK]
-[ReferenceLibraryDate#DATE_HOUR DATE_HOUR]
-[ReferenceLibraryDate#DATE_MINUTE DATE_MINUTE]
-[ReferenceLibraryDate#DATE_SECOND DATE_SECOND]
+[ReferenceLibraryDates#DATE_YEAR DATE_YEAR]
+[ReferenceLibraryDates#DATE_MONTH DATE_MONTH]
+[ReferenceLibraryDates#DATE_DAY DATE_DAY]
+[ReferenceLibraryDates#DATE_WEEK DATE_WEEK]
+[ReferenceLibraryDates#DATE_HOUR DATE_HOUR]
+[ReferenceLibraryDates#DATE_MINUTE DATE_MINUTE]
+[ReferenceLibraryDates#DATE_SECOND DATE_SECOND]
     Date/time interval kind constants.
 
-[ReferenceLibraryDate#DATE_JANUARY DATE_JANUARY]
-[ReferenceLibraryDate#DATE_FEBRUARY DATE_FEBRUARY]
-[ReferenceLibraryDate#DATE_MARCH DATE_MARCH]
-[ReferenceLibraryDate#DATE_APRIL DATE_APRIL]
-[ReferenceLibraryDate#DATE_MAY DATE_MAY]
-[ReferenceLibraryDate#DATE_JUNE DATE_JUNE]
-[ReferenceLibraryDate#DATE_JULY DATE_JULY]
-[ReferenceLibraryDate#DATE_AUGUST DATE_AUGUST]
-[ReferenceLibraryDate#DATE_SEPTEMBER DATE_SEPTEMBER]
-[ReferenceLibraryDate#DATE_OCTOBER DATE_OCTOBER]
-[ReferenceLibraryDate#DATE_NOVEMBER DATE_NOVEMBER]
-[ReferenceLibraryDate#DATE_DECEMBER DATE_DECEMBER]
+[ReferenceLibraryDates#DATE_JANUARY DATE_JANUARY]
+[ReferenceLibraryDates#DATE_FEBRUARY DATE_FEBRUARY]
+[ReferenceLibraryDates#DATE_MARCH DATE_MARCH]
+[ReferenceLibraryDates#DATE_APRIL DATE_APRIL]
+[ReferenceLibraryDates#DATE_MAY DATE_MAY]
+[ReferenceLibraryDates#DATE_JUNE DATE_JUNE]
+[ReferenceLibraryDates#DATE_JULY DATE_JULY]
+[ReferenceLibraryDates#DATE_AUGUST DATE_AUGUST]
+[ReferenceLibraryDates#DATE_SEPTEMBER DATE_SEPTEMBER]
+[ReferenceLibraryDates#DATE_OCTOBER DATE_OCTOBER]
+[ReferenceLibraryDates#DATE_NOVEMBER DATE_NOVEMBER]
+[ReferenceLibraryDates#DATE_DECEMBER DATE_DECEMBER]
     Month constants.
 
-[ReferenceLibraryDate#DATE_MONDAY DATE_MONDAY]
-[ReferenceLibraryDate#DATE_TUESDAY DATE_TUESDAY]
-[ReferenceLibraryDate#DATE_WEDNESDAY DATE_WEDNESDAY]
-[ReferenceLibraryDate#DATE_THURSDAY DATE_THURSDAY]
-[ReferenceLibraryDate#DATE_FRIDAY DATE_FRIDAY]
-[ReferenceLibraryDate#DATE_SATURDAY DATE_SATURDAY]
-[ReferenceLibraryDate#DATE_SUNDAY DATE_SUNDAY]
+[ReferenceLibraryDates#DATE_MONDAY DATE_MONDAY]
+[ReferenceLibraryDates#DATE_TUESDAY DATE_TUESDAY]
+[ReferenceLibraryDates#DATE_WEDNESDAY DATE_WEDNESDAY]
+[ReferenceLibraryDates#DATE_THURSDAY DATE_THURSDAY]
+[ReferenceLibraryDates#DATE_FRIDAY DATE_FRIDAY]
+[ReferenceLibraryDates#DATE_SATURDAY DATE_SATURDAY]
+[ReferenceLibraryDates#DATE_SUNDAY DATE_SUNDAY]
     Weekday constant.
 
-[ReferenceLibraryDate#DateAdd DateAdd]
+[ReferenceLibraryDates#DateAdd DateAdd]
           Adds a time interval to the given date.
-[ReferenceLibraryDate#DateValue DateValue]
+[ReferenceLibraryDates#DateValue DateValue]
           Creates a date from the given string.
-[ReferenceLibraryDate#Day Day]
+[ReferenceLibraryDates#Day Day]
           Returns the day of the month for the given date.
-[ReferenceLibraryDate#FormatDate FormatDate]
+[ReferenceLibraryDates#FormatDate FormatDate]
           Converts and formats the given date into a string.
-[ReferenceLibraryDate#Hour Hour]
+[ReferenceLibraryDates#Hour Hour]
           Returns the hours for the given date.
-[ReferenceLibraryDate#Minute Minute]
+[ReferenceLibraryDates#Minute Minute]
           Returns the minutes for the given date.
-[ReferenceLibraryDate#Month Month]
+[ReferenceLibraryDates#Month Month]
           Returns the month of the given date.
-[ReferenceLibraryDate#MonthName MonthName]
+[ReferenceLibraryDates#MonthName MonthName]
           Returns the name of the month for the given date.
-[ReferenceLibraryDate#Now Now]
+[ReferenceLibraryDates#Now Now]
           Returns the current date and time.
-[ReferenceLibraryDate#Second Second]
+[ReferenceLibraryDates#Second Second]
           Returns the seconds for the given date.
-[ReferenceLibraryDate#Timer Timer]
+[ReferenceLibraryDates#Timer Timer]
           Returns the current system time in milliseconds.
-[ReferenceLibraryDate#Weekday Weekday]
+[ReferenceLibraryDates#Weekday Weekday]
           Returns the weekday for the given date.
-[ReferenceLibraryDate#WeekdayName WeekdayName]
+[ReferenceLibraryDates#WeekdayName WeekdayName]
           Returns the name of the weekday for the given date.
-[ReferenceLibraryDate#Year Year]
+[ReferenceLibraryDates#Year Year]
           Returns the year of the given date.
  
 
