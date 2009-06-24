@@ -6,6 +6,10 @@
 
 == Simple Language Specification ==
 
+== API Reference ==
+
+== Component Reference
+
 == Creating A New Project ==
 
 == Static Forms vs. Dynamic Forms ==
