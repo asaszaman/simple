@@ -4,7 +4,7 @@
 
 == Prerequisites ==
 
-The first step is to either download the appropriate Simple distribution for your computer or to download the SImple source code and build the system yourself. Either way you will end up with a distribution for writing Simple programs.
+The first step is to either download the appropriate Simple distribution for your computer or to download the Simple source code and [HowToBuildTheSimpleCompiler build the system yourself]. Either way you will end up with a distribution for writing Simple programs.
 
 In addition to the Simple distribution you also need to have to following software installed on your computer:
 
