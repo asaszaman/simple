@@ -8,7 +8,7 @@
 
 == API Reference ==
 
-== Component Reference
+== Component Reference ==
 
 == Creating A New Project ==
 
