@@ -1,0 +1,7 @@
+#summary Contributing To Simple
+
+= Contributing to Simple =
+
+== Coding Style ==
+
+== Writing Libraries and Components ==
