@@ -189,8 +189,7 @@ Static Function FormatDate(date As Date) As String
         date - date to format 
     Returns:
         formatted date
-    See Also:
-        SimpleDateFormat
+
 ----
 === Hour ===
 
