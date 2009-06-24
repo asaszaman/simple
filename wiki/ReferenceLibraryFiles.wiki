@@ -212,7 +212,7 @@ Static Sub WriteString(handle As Integer, value As String)
 
 {{{
 Static Function ReadString(handle As Integer) As String
-}}
+}}}
 
     Reads a String value from a file.
 
