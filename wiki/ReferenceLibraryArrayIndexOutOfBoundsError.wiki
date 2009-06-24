@@ -1,0 +1,6 @@
+#summary Reference: ArrayIndexOutOfBoundsError - Indicates an array access with an index that is outside of the array bound
+
+,,namespace com.google.devtools.simple.runtime.errors,,
+= !ArrayIndexOutOfBoundsError =
+
+Runtime error indicating an array access with an index that is outside of the array bounds.
