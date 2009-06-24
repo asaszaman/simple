@@ -4,4 +4,6 @@
 
 == Coding Style ==
 
+== Testing Changes ==
+
 == Writing Libraries and Components ==
