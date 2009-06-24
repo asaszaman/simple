@@ -1,5 +1,6 @@
 #summary Reference: Dates - Various date and time related runtime functions
 
+^namespace com.google.devtools.simple.runtime^
 = Dates =
 
 Various date and time related runtime functions.
