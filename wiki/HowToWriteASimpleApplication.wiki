@@ -4,6 +4,19 @@
 
 == Prerequisites ==
 
+The first step is to either download the appropriate Simple distribution for your computer or to download the SImple source code and build the system yourself. Either way you will end up with a distribution for writing Simple programs.
+
+In addition to the Simple distribution you also need to have to following software installed on your computer:
+
+  * Java SDK or JRE version 1.6 or newer
+  * Android SDK version 1.5 or newer
+
+This distribution of Simple contains commandline tools only. Currently there are no IDEs that support Simple available. That means that you will have to invoke the Simple compiler from a command shell. In order for the Simple compiler to find all necessary files, you will have to define the following environment variables:
+
+  * JAVA_HOME needs to point to the root directory of the Java SDK or JRE installation
+  * ANDROID_HOME needs to point to the root directory of the Android installation
+  * SIMPLE_HOME needs to point to the root directory of the Simple distribution
+
 == Simple Language Specification ==
 
 The [http://docs.google.com/View?id=dd2q5z8t_3fjn6wxfq Simple Language Specification] is neither a tutorial for general programming nor programming in Simple. Nevertheless it contains numerous examples to illustrate the usage of the Simple programming language.
@@ -14,4 +27,8 @@ The [http://docs.google.com/View?id=dd2q5z8t_3fjn6wxfq Simple Language Specifica
 
 == Creating A New Project ==
 
+== Building And Deploying A Project ==
+
 == Static Forms vs. Dynamic Forms ==
+
+== Sample Applications ==
