@@ -15,7 +15,9 @@ Various array related runtime functions.
 ----
 === Filter ===
 
-`Static Function Filter(array As String(), str As String, include As Boolean) As String()`
+{{{
+Static Function Filter(array As String(), str As String, include As Boolean) As String()
+}}}
 
     Filters the contents of an array.
 
@@ -28,7 +30,9 @@ Various array related runtime functions.
 ----
 === Join ===
 
-`Static Function Join(array As String(), separator As String) As String`
+{{{
+Static Function Join(array As String(), separator As String) As String
+}}}
 
     Appends array elements to a become a single string.
 
@@ -40,7 +44,9 @@ Various array related runtime functions.
 ----
 === Split ===
 
-`Static Function Split(str As String, separator As String, count As Integer) As String()`
+{{{
+Static Function Split(str As String, separator As String, count As Integer) As String()
+}}}
 
     Splits up the given string where a separator is being found.
 
@@ -53,7 +59,9 @@ Various array related runtime functions.
 ----
 === UBound ===
 
-`Static Function UBound(array As Variant, dim As Integer) As Integer`
+{{{
+Static Function UBound(array As Variant, dim As Integer) As Integer
+}}}
 
     Return the size of an array dimension.
 
