@@ -11,7 +11,9 @@ Assertions allow test against assumptions about the runtime state of an applicat
  ----
 === !AssertTrue ===
 
-`Static Sub AssertTrue(expression As Variant)`
+{{{
+Static Sub AssertTrue(expression As Variant)
+}}}
 
     Tests whether an assertion is true. Evaluates the given expression and causes an AssertionFailure runtime error if the expression does not evaluate to True.
 
@@ -20,7 +22,9 @@ Assertions allow test against assumptions about the runtime state of an applicat
 ----
 === !AssertFalse ===
 
-`Static Sub AssertFalse(expression As Variant)`
+{{{
+Static Sub AssertFalse(expression As Variant)
+}}}
 
     Tests whether an assertion is false. Evaluates the given expression and causes an AssertionFailure runtime error if the expression does not evaluate to False.
 
