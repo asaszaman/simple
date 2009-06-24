@@ -1,0 +1,354 @@
+#summary Reference: Files - Various file related runtime functions
+
+,,namespace com.google.devtools.simple.runtime,,
+= Files =
+
+Various file related runtime functions.
+
+[ReferenceLibraryFiles#Close Close]
+          Closes a file previously opened.
+[ReferenceLibraryFiles#Delete Delete]
+          Deletes a file.
+[ReferenceLibraryFiles#Eof Eof]
+          Checks whether the current file position is at the end of the file.
+[ReferenceLibraryFiles#Exists Exists]
+          Checks whether a file or directory exists.
+[ReferenceLibraryFiles#IsDirectory IsDirectory]
+          Checks whether the given name is the name of an existing directory.
+[ReferenceLibraryFiles#Mkdir Mkdir]
+          Creates a new directory.
+[ReferenceLibraryFiles#Open Open]
+          Opens an existing file or creates a new file for reading or writing.
+[ReferenceLibraryFiles#ReadBoolean ReadBoolean]
+          Reads a Boolean value from a file.
+[ReferenceLibraryFiles#ReadByte ReadByte]
+          Reads a Byte value from a file.
+[ReferenceLibraryFiles#ReadDouble ReadDouble]
+          Reads a Double value from a file.
+[ReferenceLibraryFiles#ReadInteger ReadInteger]
+          Reads an Integer value from a file.
+[ReferenceLibraryFiles#ReadLong ReadLong]
+          Reads a Long value from a file.
+[ReferenceLibraryFiles#ReadShort ReadShort]
+          Reads a Short value from a file.
+[ReferenceLibraryFiles#ReadSingle ReadSingle]
+          Reads a Single value from a file.
+[ReferenceLibraryFiles#ReadString ReadString]
+          Reads a String value from a file.
+[ReferenceLibraryFiles#Rename Rename]
+          Renames a file.
+[ReferenceLibraryFiles#Rmdir Rmdir]
+          Deletes a directory.
+[ReferenceLibraryFiles#Seek Seek]
+          Positions the file pointer to an absolute position.
+[ReferenceLibraryFiles#Size Size]
+          Returns the size of a file.
+[ReferenceLibraryFiles#WriteBoolean WriteBoolean]
+          Writes a Boolean value to a file.
+[ReferenceLibraryFiles#WriteByte WriteByte]
+          Writes a Byte value to a file.
+[ReferenceLibraryFiles#WriteDouble WriteDouble]
+          Writes a Double value to a file.
+[ReferenceLibraryFiles#WriteInteger WriteInteger]
+          Writes an Integer boolean value to a file.
+[ReferenceLibraryFiles#WriteLong WriteLong]
+          Writes a Long value to a file.
+[ReferenceLibraryFiles#WriteShort WriteShort]
+          Writes a Short value to a file.
+[ReferenceLibraryFiles#WriteSingle WriteSingle]
+          Writes a Single value to a file.
+[ReferenceLibraryFiles#WriteString WriteString]
+          Writes a String to a file.
+
+----
+=== Rename ===
+
+{{{
+Static Sub Rename(oldname As String, newname As String)
+}}}
+
+    Renames a file. Causes a runtime error if the file doesn't exist.
+
+    Parameters:
+        oldname - file name before renaming
+        newname - file name after renaming
+
+=== Delete ===
+
+public static void Delete(java.lang.String name)
+
+    Deletes a file.
+
+    Parameters:
+        name - name of file to delete
+
+Mkdir
+
+public static void Mkdir(java.lang.String name)
+
+    Creates a new directory.
+
+    Parameters:
+        name - name of new directory
+
+Rmdir
+
+public static void Rmdir(java.lang.String name)
+
+    Deletes a directory.
+
+    Parameters:
+        name - name of directory to delete
+
+IsDirectory
+
+public static boolean IsDirectory(java.lang.String name)
+
+    Checks whether the given name is the name of an existing directory. Causes a runtime error if the directory doesn't exist.
+
+    Parameters:
+        name - name to check 
+    Returns:
+        true if the name belongs to an existing directory, false otherwise
+
+Exists
+
+public static boolean Exists(java.lang.String name)
+
+    Checks whether a file or directory exists.
+
+    Parameters:
+        name - file to check 
+    Returns:
+        true if the file or directory exists, false otherwise
+
+Open
+
+public static int Open(java.lang.String name)
+
+    Opens an existing file or creates a new file for reading or writing.
+
+    Parameters:
+        name - name of file to open or create 
+    Returns:
+        file handle
+
+Close
+
+public static void Close(int handle)
+
+    Closes a file previously opened.
+
+    Parameters:
+        handle - handle of file to close
+
+Eof
+
+public static boolean Eof(int handle)
+
+    Checks whether the current file position is at the end of the file.
+
+    Parameters:
+        handle - handle of file to check 
+    Returns:
+        true if the end of the file was reaches, false otherwise
+
+Seek
+
+public static long Seek(int handle,
+                        long offset)
+
+    Positions the file pointer to an absolute position.
+
+    Parameters:
+        handle - handle of file
+        offset - absolute position within file 
+    Returns:
+        new position within file
+
+Size
+
+public static long Size(int handle)
+
+    Returns the size of a file.
+
+    Parameters:
+        handle - handle of file 
+    Returns:
+        file size
+
+WriteString
+
+public static void WriteString(int handle,
+                               java.lang.String value)
+
+    Writes a String to a file.
+
+    Parameters:
+        handle - handle of file
+        value - value to write
+
+ReadString
+
+public static java.lang.String ReadString(int handle)
+
+    Reads a String value from a file.
+
+    Parameters:
+        handle - handle of file 
+    Returns:
+        value read
+
+WriteBoolean
+
+public static void WriteBoolean(int handle,
+                                boolean value)
+
+    Writes a Boolean value to a file.
+
+    Parameters:
+        handle - handle of file
+        value - value to write
+
+ReadBoolean
+
+public static boolean ReadBoolean(int handle)
+
+    Reads a Boolean value from a file.
+
+    Parameters:
+        handle - handle of file 
+    Returns:
+        value read
+
+WriteByte
+
+public static void WriteByte(int handle,
+                             byte value)
+
+    Writes a Byte value to a file.
+
+    Parameters:
+        handle - handle of file
+        value - value to write
+
+ReadByte
+
+public static byte ReadByte(int handle)
+
+    Reads a Byte value from a file.
+
+    Parameters:
+        handle - handle of file 
+    Returns:
+        value read
+
+WriteShort
+
+public static void WriteShort(int handle,
+                              short value)
+
+    Writes a Short value to a file.
+
+    Parameters:
+        handle - handle of file
+        value - value to write
+
+ReadShort
+
+public static short ReadShort(int handle)
+
+    Reads a Short value from a file.
+
+    Parameters:
+        handle - handle of file 
+    Returns:
+        value read
+
+WriteInteger
+
+public static void WriteInteger(int handle,
+                                int value)
+
+    Writes an Integer boolean value to a file.
+
+    Parameters:
+        handle - handle of file
+        value - value to write
+
+ReadInteger
+
+public static int ReadInteger(int handle)
+
+    Reads an Integer value from a file.
+
+    Parameters:
+        handle - handle of file 
+    Returns:
+        value read
+
+WriteLong
+
+public static void WriteLong(int handle,
+                             long value)
+
+    Writes a Long value to a file.
+
+    Parameters:
+        handle - handle of file
+        value - value to write
+
+ReadLong
+
+public static long ReadLong(int handle)
+
+    Reads a Long value from a file.
+
+    Parameters:
+        handle - handle of file 
+    Returns:
+        value read
+
+WriteSingle
+
+public static void WriteSingle(int handle,
+                               float value)
+
+    Writes a Single value to a file.
+
+    Parameters:
+        handle - handle of file
+        value - value to write
+
+ReadSingle
+
+public static float ReadSingle(int handle)
+
+    Reads a Single value from a file.
+
+    Parameters:
+        handle - handle of file 
+    Returns:
+        value read
+
+WriteDouble
+
+public static void WriteDouble(int handle,
+                               double value)
+
+    Writes a Double value to a file.
+
+    Parameters:
+        handle - handle of file
+        value - value to write
+
+ReadDouble
+
+public static double ReadDouble(int handle)
+
+    Reads a Double value from a file.
+
+    Parameters:
+        handle - handle of file 
+    Returns:
+        value read
