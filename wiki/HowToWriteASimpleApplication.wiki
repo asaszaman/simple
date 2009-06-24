@@ -6,6 +6,8 @@
 
 == Simple Language Specification ==
 
+The [http://docs.google.com/View?id=dd2q5z8t_3fjn6wxfq Simple Language Specification] is neither a tutorial for general programming nor programming in Simple. Nevertheless it contains numerous examples to illustrate the usage of the Simple programming language.
+
 == API Reference ==
 
 == Component Reference ==
