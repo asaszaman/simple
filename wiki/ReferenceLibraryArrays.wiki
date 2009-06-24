@@ -1,5 +1,6 @@
 #summary Reference: Arrays - Various array related runtime functions.
 
+^namespace com.google.devtools.simple.runtime^
 = Arrays =
 
 Various array related runtime functions.
