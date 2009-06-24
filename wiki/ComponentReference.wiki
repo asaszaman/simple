@@ -1,0 +1,41 @@
+#summary Component Reference
+
+= Components =
+
+[ReferenceComponentAccelerometerSensor AccelerometerSensor - Sensor that can detect shaking and measure acceleration in 3 dimensions]
+
+[ReferenceComponentButton Button - Simple button component]
+
+[ReferenceComponentCanvas Canvas - Simple canvas component]
+
+[ReferenceComponentCheckBox CheckBox - Simple checkbox component]
+
+[ReferenceComponentEmailPicker EmailPicker - Text box using auto-completion to pick out an email address from contacts]
+
+[ReferenceComponentForm Form - Root component container]
+
+[ReferenceComponentImage Image - Component for displaying images and animations]
+
+[ReferenceComponentLabel Label - Label containing a text string or an image]
+
+[ReferenceComponentOrientationSensor OrientationSensor - Sensor that can measure absolute orientation in 3 dimensions]
+
+[ReferenceComponentPanel Panel - Container that can be placed within a Form or another container]
+
+[ReferenceComponentPasswordTextBox PasswordTextBox - Text box for entering passwords]
+
+[ReferenceComponentPhone Phone - Simple Phone component]
+
+[ReferenceComponentRadioButton RadioButton - Simple radio button component]
+
+[ReferenceComponentTextBox TextBox - Simple text box component]
+
+[ReferenceComponentTimer Timer - Simple Timer component]
+
+= Layouts =
+
+[ReferenceComponentFrameLayout 	FrameLayout - Frame layout for Simple components]
+
+[ReferenceComponentLinearLayout LinearLayout - Linear layout for placing components horizontally or vertically]
+
+[ReferenceComponentTableLayout TableLayout - Layout component allowing subcomponents to be placed in tabular form]
