@@ -1,5 +1,6 @@
 #summary Reference: Conversions - Various conversion related runtime functions
 
+^namespace com.google.devtools.simple.runtime^
 = Conversions =
 
 Various conversion related runtime functions.
