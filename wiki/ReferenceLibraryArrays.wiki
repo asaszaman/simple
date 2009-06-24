@@ -1,4 +1,4 @@
-#summary Arrays - Various array related runtime functions.
+#summary Reference: Arrays - Various array related runtime functions.
 
 = Arrays =
 
