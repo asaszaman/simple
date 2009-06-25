@@ -2,40 +2,40 @@
 
 = Components =
 
-[ReferenceComponentAccelerometerSensor AccelerometerSensor] - Sensor that can detect shaking and measure acceleration in 3 dimensions
+[ReferenceComponentAccelerometerSensor AccelerometerSensor] - Sensor to measure acceleration in 3 dimensions
 
-[ReferenceComponentButton Button] - Simple button component
+[ReferenceComponentButton Button] - Push-button
 
-[ReferenceComponentCanvas Canvas] - Simple canvas component
+[ReferenceComponentCanvas Canvas] - Surface to draw on
 
-[ReferenceComponentCheckBox CheckBox] - Simple checkbox component
+[ReferenceComponentCheckBox CheckBox] - Two state button that can either be checked or un-checked
 
-[ReferenceComponentEmailPicker EmailPicker] - Text box using auto-completion to pick out an email address from contacts
+[ReferenceComponentEmailPicker EmailPicker] - Editable text box using auto-completion to pick out an email address from contacts
 
 [ReferenceComponentForm Form] - Root component container
 
-[ReferenceComponentImage Image] - Component for displaying images and animations
+[ReferenceComponentImage Image] - Component for displaying images
 
-[ReferenceComponentLabel Label] - Text box that cannot be edited
+[ReferenceComponentLabel Label] - Text display
 
-[ReferenceComponentOrientationSensor OrientationSensor] - Sensor that can measure absolute orientation in 3 dimensions
+[ReferenceComponentOrientationSensor OrientationSensor] - Sensor to measure absolute orientation in 3 dimensions
 
-[ReferenceComponentPanel Panel] - Container that can be placed within a Form or another container
+[ReferenceComponentPanel Panel] - Container for other components
 
-[ReferenceComponentPasswordTextBox PasswordTextBox] - Text box for entering passwords
+[ReferenceComponentPasswordTextBox PasswordTextBox] - Editable text box for entering passwords
 
-[ReferenceComponentPhone Phone] - Simple Phone component
+[ReferenceComponentPhone Phone] - Component providing phone-related functionality
 
-[ReferenceComponentRadioButton RadioButton] - Simple radio button component
+[ReferenceComponentRadioButton RadioButton] - Two state button that can either be checked or un-checked
 
-[ReferenceComponentTextBox TextBox] - Simple text box component
+[ReferenceComponentTextBox TextBox] - Editable text box
 
-[ReferenceComponentTimer Timer] - Simple Timer component
+[ReferenceComponentTimer Timer] - Timer component
 
 = Layouts =
 
-[ReferenceComponentFrameLayout 	FrameLayout] - Frame layout for Simple components
+[ReferenceComponentFrameLayout 	FrameLayout] - Layout for prominently showing a single component
 
-[ReferenceComponentLinearLayout LinearLayout] - Linear layout for placing components horizontally or vertically
+[ReferenceComponentLinearLayout LinearLayout] - Layout for placing components horizontally or vertically
 
-[ReferenceComponentTableLayout TableLayout] - Layout component allowing subcomponents to be placed in tabular form
+[ReferenceComponentTableLayout TableLayout] - Layout for placing components in tabular form
