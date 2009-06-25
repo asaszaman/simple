@@ -1,0 +1,1 @@
+#summary Reference: EmailPicker - Text box using auto-completion to pick out an email address from contacts
