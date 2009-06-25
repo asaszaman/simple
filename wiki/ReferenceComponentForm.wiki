@@ -13,11 +13,11 @@ Form is the base object of all forms defined by applications. A form is the root
 ==== Properties ====
 
 [ReferenceComponentForm#BackgroundColor BackgroundColor]
-          Property for controlling the component's background color.
+          Property for controlling the form's background color.
 [ReferenceComponentForm#Height Height]
-          Property for controlling the component's height.
+          Property for reading the forms's height.
 [ReferenceComponentForm#Width Width]
-          Property for controlling the component's width.
+          Property for reading the forms's width.
 
 ----
 === Initialize ===
@@ -26,7 +26,8 @@ Form is the base object of all forms defined by applications. A form is the root
 Event Initialize()
 }}}
 
-    Event raised upon component initialization.
+    Event raised upon form initialization. Inside of an event handler for this event is the best place for adding components dynamically to a form. For more information of dynamic forms see [HowToWriteASimpleApplication#Static_Forms_vs._Dynamic_Forms How To Write A Simple Application].
+
 ----
 === Click ===
 
