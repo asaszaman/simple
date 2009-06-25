@@ -1,4 +1,4 @@
-#summary Reference: Button - Push-button
+#summary Reference: Button - Push-style button
 
 ,,namespace com.google.devtools.simple.runtime.components,,
 = Button =
@@ -6,6 +6,11 @@
 Simple Button component. 
 
 ==== Events ====
+
+[ReferenceComponentButton#Initialize Initialize]
+         Initialization event.
+[ReferenceComponentButton#Click Click]
+         Click event.
 
 ==== Properties ====
 
@@ -20,6 +25,22 @@ Simple Button component.
 [ReferenceComponentButton#Width Width]
           Property for controlling the component's width.
 
+----
+=== Initialize ===
+
+{{{
+Event Initialize()
+}}}
+
+    Event raised upon component initialization.
+----
+=== Click ===
+
+{{{
+Event Click()
+}}}
+
+    Event raised after the button is clicked or touched.
 ----
 = !BackgroundColor =
 
@@ -54,4 +75,3 @@ Property Row As Integer
 {{{
 Property Width As Integer
 }}}
-
