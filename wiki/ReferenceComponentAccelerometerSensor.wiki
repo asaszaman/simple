@@ -1,9 +1,9 @@
-#summary Reference: AccelerometerSensor - Sensor that can detect shaking and measure acceleration in 3 dimensions
+#summary Reference: AccelerometerSensor - Sensor to measure acceleration in 3 dimensions
 
 ,,namespace com.google.devtools.simple.runtime.components,,
 = !AccelerometerSensor =
 
-Sensor that can detect shaking and measure acceleration in 3 dimensions.
+Sensor to measure acceleration in 3 dimensions, and also detect shaking.
 
 ==== Events ====
 [ReferenceComponentAccelerometerSensor#Initialize Initialize]
@@ -60,7 +60,8 @@ Event Shaking()
 Property Available As Boolean
 }}}
 
-    Indicates whether the sensor is available on the device running the application (read-only property).
+    This property indicates whether the sensor is available on the device running the application.
+    This property is read-only.
 
 ----
 === Enabled ===
@@ -69,8 +70,8 @@ Property Available As Boolean
 Property Enabled As Boolean
 }}}
 
-    Reading from the Enabled property indicates whether the sensor is generating data.
-    Writing to the Enabled property will turn sensor data generation on or off.
+    Reading from the Enabled property indicates whether the sensor is generating data. Writing to the Enabled property will turn sensor data generation on or off.
+    Data generation is enabled by default.
 ----
 === XAccel ===
 
@@ -78,7 +79,7 @@ Property Enabled As Boolean
 Property XAccel As Single
 }}}
 
-    Most recent x acceleration value (read-only property).
+    Reading the value of this property returns the most recent x acceleration value. In order for this property to supply meaningful values, the sensor needs to be available and enabled. This property is read-only.
 ----
 === YAccel ===
 
@@ -86,7 +87,7 @@ Property XAccel As Single
 Property YAccel As Single
 }}}
 
-    Most recent y acceleration value (read-only property).
+    Reading the value of this property returns the most recent y acceleration value. In order for this property to supply meaningful values, the sensor needs to be available and enabled. This property is read-only.
 ----
 === ZAccel ===
 
@@ -94,4 +95,4 @@ Property YAccel As Single
 Property ZAccel As Single
 }}}
 
-    Most recent z acceleration value (read-only property).
+    Reading the value of this property returns the most recent z acceleration value. In order for this property to supply meaningful values, the sensor needs to be available and enabled. This property is read-only.
