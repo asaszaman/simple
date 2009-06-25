@@ -79,7 +79,8 @@ Property Enabled As Boolean
 Property XAccel As Single
 }}}
 
-    Reading the value of this property returns the most recent x acceleration value. In order for this property to supply meaningful values, the sensor needs to be available and enabled. This property is read-only.
+    Reading the value of this property returns the most recent x acceleration value. In order for this property to supply meaningful values, the sensor needs to be available and enabled.
+Writing to this property will accelerate the device at the given rate. Use this only in a controlled environment as sudden acceleration may cause severe injury... No, just kidding - this property is read-only.
 ----
 === YAccel ===
 
