@@ -1,0 +1,1 @@
+#summary Reference: OrientationSensor - Sensor that can measure absolute orientation in 3 dimensions
