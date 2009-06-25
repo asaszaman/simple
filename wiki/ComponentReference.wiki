@@ -4,7 +4,7 @@
 
 [ReferenceComponentAccelerometerSensor AccelerometerSensor] - Sensor to measure acceleration in 3 dimensions
 
-[ReferenceComponentButton Button] - Push-button
+[ReferenceComponentButton Button] - Push-style button
 
 [ReferenceComponentCanvas Canvas] - Surface to draw on
 
