@@ -196,7 +196,7 @@ Static Function Size(handle As Integer) As Long
     Returns:
         file size
 ----
-=== !WriteString ----
+=== !WriteString ===
 
 {{{
 Static Sub WriteString(handle As Integer, value As String)
