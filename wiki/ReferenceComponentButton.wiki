@@ -1,4 +1,4 @@
-#summary Reference: Button - Simple button component
+#summary Reference: Button - Push-button
 
 ,,namespace com.google.devtools.simple.runtime.components,,
 = Button =
@@ -8,3 +8,50 @@ Simple Button component.
 ==== Events ====
 
 ==== Properties ====
+
+[ReferenceComponentButton#BackgroundColor BackgroundColor]
+          Property for controlling the component's background color.
+[ReferenceComponentButton#Column Column]
+          Property for controlling the column position when using a table layout.
+[ReferenceComponentButton#Height Height]
+          Property for controlling the component's height.
+[ReferenceComponentButton#Row Row]
+          Property for controlling the row position when using a table layout.
+[ReferenceComponentButton#Width Width]
+          Property for controlling the component's width.
+
+----
+= !BackgroundColor =
+
+{{{
+Property BackgroundColor As Integer
+}}}
+
+----
+= Column =
+
+{{{
+Property Column As Integer
+}}}
+
+----
+= Height =
+
+{{{
+Property Height As Integer
+}}}
+
+----
+= Row =
+
+{{{
+Property Row As Integer
+}}}
+
+----
+= Width =
+
+{{{
+Property Width As Integer
+}}}
+
