@@ -1,0 +1,10 @@
+#summary Reference: Canvas - Simple canvas component
+
+,,namespace com.google.devtools.simple.runtime.components,,
+= Canvas =
+
+Simple Canvas component. 
+
+==== Events ====
+
+==== Properties ====
