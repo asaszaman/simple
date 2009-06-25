@@ -42,36 +42,40 @@ Event Click()
 
     Event raised after the button is clicked or touched.
 ----
-= !BackgroundColor =
+=== !BackgroundColor ===
 
 {{{
 Property BackgroundColor As Integer
 }}}
 
 ----
-= Column =
+=== Column ===
 
 {{{
 Property Column As Integer
 }}}
-
+     Reading from the Column property returns the current column position within a table layout. Writing to the Column property will set the column position of the component within a table layout. This property has no meaning for any other layout.
 ----
-= Height =
+=== Height ===
 
 {{{
 Property Height As Integer
 }}}
 
+     Reading from the Height property returns the current height of the component in pixels. Writing to the Height property changes the height of the component to the given value in pixels. There are two special values. `Component.LENGTH_PREFERRED` sets the preferred height of the component which depends on the contents of the component. `Component.LENGTH_FILL_PARENT` sets the height of the component to its maximum to fill the height of its parent container.
 ----
-= Row =
+=== Row ===
 
 {{{
 Property Row As Integer
 }}}
 
+     Reading from the Row property returns the current row position within a table layout. Writing to the Row property will set the row position of the component within a table layout. This property has no meaning for any other layout.
 ----
-= Width =
+=== Width ===
 
 {{{
 Property Width As Integer
 }}}
+
+     Reading from the Width property returns the current width of the component in pixels. Writing to the Width property changes the width of the component to the given value in pixels. There are two special values. `Component.LENGTH_PREFERRED` sets the preferred width of the component which depends on the contents of the component. `Component.LENGTH_FILL_PARENT` sets the width of the component to its maximum to fill the width of its parent container.
