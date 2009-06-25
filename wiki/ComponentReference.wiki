@@ -16,7 +16,7 @@
 
 [ReferenceComponentImage Image] - Component for displaying images and animations
 
-[ReferenceComponentLabel Label] - Label containing a text string or an image
+[ReferenceComponentLabel Label] - Text box that cannot be edited
 
 [ReferenceComponentOrientationSensor OrientationSensor] - Sensor that can measure absolute orientation in 3 dimensions
 
