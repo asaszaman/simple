@@ -1,7 +1,7 @@
 #summary Reference: CheckBox - Simple checkbox component
 
 ,,namespace com.google.devtools.simple.runtime.components,,
-= CheckBox =
+= !CheckBox =
 
 Simple checkbox component. 
 
