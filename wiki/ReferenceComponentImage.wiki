@@ -1,0 +1,1 @@
+#summary Reference: Image - Component for displaying images and animations
