@@ -1,0 +1,10 @@
+#summary Reference: Button - Simple button component
+
+,,namespace com.google.devtools.simple.runtime.components,,
+= Button =
+
+Simple Button component. 
+
+==== Events ====
+
+==== Properties ====
