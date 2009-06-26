@@ -194,4 +194,4 @@ Property TextColor As Integer
 Property Image As String
 }}}
 
-     Reading from this property returns the path of image currently shown on the component. If there is no image shown an empty string will be returned. Writing to this property changes the image shown on the component.
+     Reading from this property returns the path of the image currently shown on the component. If there is no image shown an empty string will be returned. Writing to this property changes the image shown on the component.
