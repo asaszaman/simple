@@ -24,7 +24,20 @@ Simple Button component.
           Property for controlling the row position when using a table layout.
 [ReferenceComponentButton#Width Width]
           Property for controlling the component's width.
-
+[ReferenceComponentButton#FontBold FontBold]
+          Property for controlling the component's font weight.
+[ReferenceComponentButton#FontItalic FontItalic]
+          Property for controlling the component's font style.
+[ReferenceComponentButton#FontSize FontSize]
+          Property for controlling the component's font size.
+ [ReferenceComponentButton#FontTypeface FontTypeface]
+          Property for controlling the component's font typeface.
+[ReferenceComponentButton#Justification Justification]
+          Property for controlling the component's text justification.
+ [ReferenceComponentButton#Text Text]
+          Property for controlling the component's text.
+[ReferenceComponentButton#TextColor TextColor]
+          Property for controlling the component's text color.
 ----
 === Initialize ===
 
@@ -83,3 +96,57 @@ Property Width As Integer
 }}}
 
      Reading from the Width property returns the current width of the component in pixels. Writing to the Width property changes the width of the component to the given value in pixels. There are two special values. `Component.LENGTH_PREFERRED` sets the preferred width of the component which depends on the contents of the component. `Component.LENGTH_FILL_PARENT` sets the width of the component to its maximum to fill the width of its parent container.
+----
+=== !FontBold ===
+
+{{{
+Property FontBold As Boolean
+}}}
+
+----
+=== !FontItalic ===
+
+{{{
+Property FontItalic As Boolean
+}}}
+
+----
+=== !FontSize ===
+
+{{{
+Property FontSize As Single
+}}}
+
+----
+=== !FontTypeface ===
+
+{{{
+Property FontTypeface As Integer
+}}}
+
+        one of Component.TYPEFACE_DEFAULT, Component.TYPEFACE_SERIF, Component.TYPEFACE_SANSSERIF or Component.TYPEFACE_MONOSPACE
+
+----
+=== Justification ===
+
+{{{
+Property Justification As Integer
+}}}
+
+        one of Component.JUSTIFY_LEFT, Component.JUSTIFY_CENTER or Component.JUSTIFY_RIGHT
+
+----
+=== Text ===
+
+{{{
+Property Text As String
+}}}
+
+----
+=== !TextColor ===
+
+{{{
+Property TextColor As Integer
+}}}
+
+        text RGB color with alpha
