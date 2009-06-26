@@ -7,20 +7,20 @@ A panel is a container for other components including other nested panels.
 
 ==== Events ====
 
-[ReferenceComponentImage#Initialize Initialize]
+[ReferenceComponentPanel#Initialize Initialize]
          Initialization event.
 
 ==== Properties ====
 
-[ReferenceComponentImage#BackgroundColor BackgroundColor]
+[ReferenceComponentPanel#BackgroundColor BackgroundColor]
           Property for controlling the component's background color.
-[ReferenceComponentImage#Column Column]
+[ReferenceComponentPanel#Column Column]
           Property for controlling the column position when using a table layout.
-[ReferenceComponentImage#Height Height]
+[ReferenceComponentPanel#Height Height]
           Property for controlling the component's height.
-[ReferenceComponentImage#Row Row]
+[ReferenceComponentPanel#Row Row]
           Property for controlling the row position when using a table layout.
-[ReferenceComponentImage#Width Width]
+[ReferenceComponentPanel#Width Width]
           Property for controlling the component's width.
 
 ----
