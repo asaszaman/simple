@@ -7,20 +7,20 @@ Editable text box.
 
 ==== Events ====
 
-[ReferenceComponentImage#Initialize Initialize]
+[ReferenceComponentTextBox#Initialize Initialize]
          Initialization event.
 
 ==== Properties ====
 
-[ReferenceComponentImage#BackgroundColor BackgroundColor]
+[ReferenceComponentTextBox#BackgroundColor BackgroundColor]
           Property for controlling the component's background color.
-[ReferenceComponentImage#Column Column]
+[ReferenceComponentTextBox#Column Column]
           Property for controlling the column position when using a table layout.
-[ReferenceComponentImage#Height Height]
+[ReferenceComponentTextBox#Height Height]
           Property for controlling the component's height.
-[ReferenceComponentImage#Row Row]
+[ReferenceComponentTextBox#Row Row]
           Property for controlling the row position when using a table layout.
-[ReferenceComponentImage#Width Width]
+[ReferenceComponentTextBox#Width Width]
           Property for controlling the component's width.
 
 ----
