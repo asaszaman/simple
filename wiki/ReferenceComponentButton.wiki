@@ -30,11 +30,11 @@ Simple Button component.
           Property for controlling the component's font style.
 [ReferenceComponentButton#FontSize FontSize]
           Property for controlling the component's font size.
- [ReferenceComponentButton#FontTypeface FontTypeface]
+[ReferenceComponentButton#FontTypeface FontTypeface]
           Property for controlling the component's font typeface.
 [ReferenceComponentButton#Justification Justification]
           Property for controlling the component's text justification.
- [ReferenceComponentButton#Text Text]
+[ReferenceComponentButton#Text Text]
           Property for controlling the component's text.
 [ReferenceComponentButton#TextColor TextColor]
           Property for controlling the component's text color.
