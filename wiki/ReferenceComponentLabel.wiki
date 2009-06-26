@@ -1,7 +1,5 @@
 #summary Reference: Label - Text display
 
-#summary Reference: Image - Component for displaying images
-
 ,,namespace com.google.devtools.simple.runtime.components,,
 = Label =
 
