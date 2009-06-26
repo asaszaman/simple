@@ -123,8 +123,7 @@ Sub DrawPoint(x As Integer, y As Integer)
     Draws a point at the given coordinates on the canvas.
 
     Parameters:
-        x - x coordinate
-
+        x - x coordinate<br>
         y - y coordinate
 ----
 === !DrawCircle ===
@@ -136,10 +135,8 @@ Sub DrawCircle(x As Integer, y As Integer, r As Single)
     Draws a circle at the given coordinates on the canvas, with the given radius
 
     Parameters:
-        x - x coordinate
-
-        y - y coordinate
-
+        x - x coordinate<br>
+        y - y coordinate<br>
         r - radius
 ----
 === !DrawLine ===
@@ -151,10 +148,7 @@ Sub DrawLine(x1 As Integer, y1 As Integer, x2 As Integer, y2 As Integer)
     Draws a line between the given coordinates on the canvas.
 
     Parameters:
-        x1 - x coordinate of first point
-
-        y1 - y coordinate of first point
-
-        x2 - x coordinate of second point
-
+        x1 - x coordinate of first point<br>
+        y1 - y coordinate of first point<br>
+        x2 - x coordinate of second point<br>
         y2 - y coordinate of second point
