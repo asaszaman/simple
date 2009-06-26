@@ -22,6 +22,20 @@ Editable text box using auto-completion to pick out an email address from contac
           Property for controlling the row position when using a table layout.
 [ReferenceComponentEmailPicker#Width Width]
           Property for controlling the component's width.
+[ReferenceComponentEmailPicker#FontBold FontBold]
+          Property for controlling the component's font weight.
+[ReferenceComponentEmailPicker#FontItalic FontItalic]
+          Property for controlling the component's font style.
+[ReferenceComponentEmailPicker#FontSize FontSize]
+          Property for controlling the component's font size.
+[ReferenceComponentEmailPicker#FontTypeface FontTypeface]
+          Property for controlling the component's font typeface.
+[ReferenceComponentEmailPicker#Justification Justification]
+          Property for controlling the component's text justification.
+[ReferenceComponentEmailPicker#Text Text]
+          Property for controlling the component's text.
+[ReferenceComponentEmailPicker#TextColor TextColor]
+          Property for controlling the component's text color.
 
 ----
 === Initialize ===
@@ -81,3 +95,71 @@ Property Width As Integer
 }}}
 
      Reading from the Width property returns the current width of the component in pixels. Writing to the Width property changes the width of the component to the given value in pixels. There are two special values. `Component.LENGTH_PREFERRED` sets the preferred width of the component which depends on the contents of the component. `Component.LENGTH_FILL_PARENT` sets the width of the component to its maximum to fill the width of its parent container.
+----
+=== !FontBold ===
+
+{{{
+Property FontBold As Boolean
+}}}
+
+     Reading from this property indicates the font weight. A value of `True` means that the component font is bold, `False` means normal. Writing to this property changes the changes the font weight.
+
+     The default value of this property is `False`.
+----
+=== !FontItalic ===
+
+{{{
+Property FontItalic As Boolean
+}}}
+
+     Reading from this property indicates the font style. A value of `True` means that the component font is italic, `False` means normal. Writing to this property changes the changes the font style.
+
+     The default value of this property is `False`.
+----
+=== !FontSize ===
+
+{{{
+Property FontSize As Single
+}}}
+
+     Reading from this property returns the font height in points. Writing to this property changes the changes the font height.
+
+     The default value of this property is 14 points.
+----
+=== !FontTypeface ===
+
+{{{
+Property FontTypeface As Integer
+}}}
+
+     Reading from this property returns the font typeface. The value must be one of `Component.TYPEFACE_DEFAULT`, `Component.TYPEFACE_SERIF`, `Component.TYPEFACE_SANSSERIF` or `Component.TYPEFACE_MONOSPACE`. Writing to this property changes the changes the font typeface.
+
+     The default value of this property is `Component.TYPEFACE_DEFAULT `.
+----
+=== Justification ===
+
+{{{
+Property Justification As Integer
+}}}
+
+     Reading from this property returns the text justification. The value must be one of `Component.JUSTIFY_LEFT`, `Component.JUSTIFY_CENTER` or `Component.JUSTIFY_RIGHT`. Writing to this property changes the changes the text justification.
+
+     The default value of this property is `Component.JUSTIFY_LEFT`.
+----
+=== Text ===
+
+{{{
+Property Text As String
+}}}
+
+     Reading from this property returns the text displayed by the component. Writing to this property changes the changes the text displayed.
+----
+=== !TextColor ===
+
+{{{
+Property TextColor As Integer
+}}}
+
+     Reading from the !TextColor property returns the current color of the text displayed by this component. The color value is encoded as _&Haarrggbb_ where _aa_ represents the alpha value (&H00 - transparent to &HFF - opaque), _rr_ represents the red, _gg_ the green and _bb_ the blue component of the color. Writing to the !TextColor property will set the color for the text of the component.
+
+     There are a number of predefined color constants: `Component.COLOR_NONE`, `Component.COLOR_BLACK`, `Component.COLOR_BLUE`, `Component.COLOR_CYAN`, `Component.COLOR_DKGRAY`, `Component.COLOR_GRAY`, `Component.COLOR_GREEN`, `Component.COLOR_LTGRAY`, `Component.COLOR_MAGENTA`, `Component.COLOR_RED`, `Component.COLOR_WHITE` and `Component.COLOR_YELLOW`.
