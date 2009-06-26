@@ -9,6 +9,8 @@ The Canvas component supplies a surface to draw on.
 
 [ReferenceComponentCanvas#Initialize Initialize]
          Initialization event.
+[ReferenceComponentCanvas#Touched Touched]
+         Touch event.
 
 ==== Properties ====
 
@@ -22,6 +24,20 @@ The Canvas component supplies a surface to draw on.
           Property for controlling the row position when using a table layout.
 [ReferenceComponentCanvas#Width Width]
           Property for controlling the component's width.
+[ReferenceComponentCanvas#BackgroundImage BackgroundImage]
+          Property for controlling the background image of the canvas.
+[ReferenceComponentCanvas#PaintColor PaintColor]
+          Property for controlling the paint color.
+
+==== Functions ====
+[ReferenceComponentCanvas#Clear Clear]
+          Clears the canvas.
+[ReferenceComponentCanvas#DrawCircle DrawCircle]
+          Draws a circle at the given coordinates on the canvas, with the given radius
+[ReferenceComponentCanvas#DrawLine DrawLine]
+          Draws a line between the given coordinates on the canvas.
+[ReferenceComponentCanvas#DrawPoint DrawPoint]
+          Draws a point at the given coordinates on the canvas.
 
 ----
 === Initialize ===
@@ -31,6 +47,14 @@ Event Initialize()
 }}}
 
     Event raised upon component initialization.
+----
+=== Touched ===
+
+{{{
+Event Touched(x As Integer, y As Integer)
+}}}
+
+    Event raised when the device screen is touched.
 ----
 === !BackgroundColor ===
 
@@ -73,3 +97,11 @@ Property Width As Integer
 }}}
 
      Reading from the Width property returns the current width of the component in pixels. Writing to the Width property changes the width of the component to the given value in pixels. There are two special values. `Component.LENGTH_PREFERRED` sets the preferred width of the component which depends on the contents of the component. `Component.LENGTH_FILL_PARENT` sets the width of the component to its maximum to fill the width of its parent container.
+----
+=== !BackgroundImage ===
+
+{{{
+Property BackgroundImage As String
+}}}
+
+     Writing to this property changes the background image shown on the component. This property is write-only.
