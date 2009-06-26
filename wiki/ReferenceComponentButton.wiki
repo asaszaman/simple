@@ -103,6 +103,9 @@ Property Width As Integer
 Property FontBold As Boolean
 }}}
 
+     Reading from this property indicates the font weight. A value of `True` means that the component font is bold, `False` means normal. Writing to this property changes the changes the font weight.
+
+     The default value of this property is `False`.
 ----
 === !FontItalic ===
 
@@ -110,6 +113,9 @@ Property FontBold As Boolean
 Property FontItalic As Boolean
 }}}
 
+     Reading from this property indicates the font style. A value of `True` means that the component font is italic, `False` means normal. Writing to this property changes the changes the font style.
+
+     The default value of this property is `False`.
 ----
 === !FontSize ===
 
@@ -117,6 +123,9 @@ Property FontItalic As Boolean
 Property FontSize As Single
 }}}
 
+     Reading from this property returns the font height in points. Writing to this property changes the changes the font height.
+
+     The default value of this property is 14 points.
 ----
 === !FontTypeface ===
 
@@ -124,8 +133,9 @@ Property FontSize As Single
 Property FontTypeface As Integer
 }}}
 
-        one of Component.TYPEFACE_DEFAULT, Component.TYPEFACE_SERIF, Component.TYPEFACE_SANSSERIF or Component.TYPEFACE_MONOSPACE
+     Reading from this property returns the font typeface. The value must be one of `Component.TYPEFACE_DEFAULT`, `Component.TYPEFACE_SERIF`, `Component.TYPEFACE_SANSSERIF` or `Component.TYPEFACE_MONOSPACE`. Writing to this property changes the changes the font typeface.
 
+     The default value of this property is `Component.TYPEFACE_DEFAULT `.
 ----
 === Justification ===
 
@@ -133,8 +143,9 @@ Property FontTypeface As Integer
 Property Justification As Integer
 }}}
 
-        one of Component.JUSTIFY_LEFT, Component.JUSTIFY_CENTER or Component.JUSTIFY_RIGHT
+     Reading from this property returns the text justification. The value must be one of `Component.JUSTIFY_LEFT`, `Component.JUSTIFY_CENTER` or `Component.JUSTIFY_RIGHT`. Writing to this property changes the changes the text justification.
 
+     The default value of this property is `Component.JUSTIFY_LEFT`.
 ----
 === Text ===
 
@@ -142,6 +153,7 @@ Property Justification As Integer
 Property Text As String
 }}}
 
+     Reading from this property returns the text displayed by the component. Writing to this property changes the changes the text displayed.
 ----
 === !TextColor ===
 
@@ -149,4 +161,6 @@ Property Text As String
 Property TextColor As Integer
 }}}
 
-        text RGB color with alpha
+     Reading from the !TextColor property returns the current color of the text displayed by this component. The color value is encoded as _&Haarrggbb_ where _aa_ represents the alpha value (&H00 - transparent to &HFF - opaque), _rr_ represents the red, _gg_ the green and _bb_ the blue component of the color. Writing to the !TextColor property will set the color for the text of the component.
+
+     There are a number of predefined color constants: `Component.COLOR_NONE`, `Component.COLOR_BLACK`, `Component.COLOR_BLUE`, `Component.COLOR_CYAN`, `Component.COLOR_DKGRAY`, `Component.COLOR_GRAY`, `Component.COLOR_GREEN`, `Component.COLOR_LTGRAY`, `Component.COLOR_MAGENTA`, `Component.COLOR_RED`, `Component.COLOR_WHITE` and `Component.COLOR_YELLOW`.
