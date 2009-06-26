@@ -7,20 +7,20 @@ Displays a non-editable text.
 
 ==== Events ====
 
-[ReferenceComponentImage#Initialize Initialize]
+[ReferenceComponentLabel#Initialize Initialize]
          Initialization event.
 
 ==== Properties ====
 
-[ReferenceComponentImage#BackgroundColor BackgroundColor]
+[ReferenceComponentLabel#BackgroundColor BackgroundColor]
           Property for controlling the component's background color.
-[ReferenceComponentImage#Column Column]
+[ReferenceComponentLabel#Column Column]
           Property for controlling the column position when using a table layout.
-[ReferenceComponentImage#Height Height]
+[ReferenceComponentLabel#Height Height]
           Property for controlling the component's height.
-[ReferenceComponentImage#Row Row]
+[ReferenceComponentLabel#Row Row]
           Property for controlling the row position when using a table layout.
-[ReferenceComponentImage#Width Width]
+[ReferenceComponentLabel#Width Width]
           Property for controlling the component's width.
 
 ----
