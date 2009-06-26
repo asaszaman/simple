@@ -105,3 +105,56 @@ Property BackgroundImage As String
 }}}
 
      Writing to this property changes the background image shown on the component. This property is write-only.
+----
+=== Clear ===
+
+{{{
+Sub Clear()
+}}}
+
+    Clears the canvas (fills it with the background color).
+----
+=== !DrawPoint ===
+
+{{{
+Sub DrawPoint(x As Integer, y As Integer)
+}}}
+
+    Draws a point at the given coordinates on the canvas.
+
+    Parameters:
+        x - x coordinate
+
+        y - y coordinate
+----
+=== !DrawCircle ===
+
+{{{
+Sub DrawCircle(x As Integer, y As Integer, r As Single)
+}}}
+
+    Draws a circle at the given coordinates on the canvas, with the given radius
+
+    Parameters:
+        x - x coordinate
+
+        y - y coordinate
+
+        r - radius
+----
+=== !DrawLine ===
+
+{{{
+Sub DrawLine(x1 As Integer, y1 As Integer, x2 As Integer, y2 As Integer)
+}}}
+
+    Draws a line between the given coordinates on the canvas.
+
+    Parameters:
+        x1 - x coordinate of first point
+
+        y1 - y coordinate of first point
+
+        x2 - x coordinate of second point
+
+        y2 - y coordinate of second point
