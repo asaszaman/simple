@@ -1,4 +1,4 @@
-#summary Reference: Label - Two-state button that can be checked or unchecked
+#summary Reference: RadioButton - Two-state button that can be checked or unchecked
 
 ,,namespace com.google.devtools.simple.runtime.components,,
 = !RadioButton =
