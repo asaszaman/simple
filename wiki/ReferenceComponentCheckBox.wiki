@@ -199,7 +199,7 @@ Property Enabled As Boolean
     Reading from the Enabled property indicates whether the checkbox is enabled. Writing to the Enabled property will enabled or disable the checkbox.
 
     Checkboxes are enabled by default.
----
+----
 === Value ===
 
 {{{
