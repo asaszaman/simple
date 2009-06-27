@@ -42,9 +42,10 @@ Simple Button component.
           Property for controlling the component's text.
 [ReferenceComponentButton#TextColor TextColor]
           Property for controlling the component's text color.
+[ReferenceComponentButton#Enabled Enabled]
+          Property for controlling whether the component is enabled.
 [ReferenceComponentButton#Image Image]
           Property for controlling an image shown on the component.
-
 
 ----
 === Initialize ===
