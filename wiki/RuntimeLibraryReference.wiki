@@ -2,42 +2,44 @@
 
 = Functions =
 
-[ReferenceLibraryApplication Application - Various application related runtime functions]
+[ReferenceLibraryApplication Application] - Various application related runtime functions
 
-[ReferenceLibraryArrays Arrays - Various array related runtime functions]
+[ReferenceLibraryArrays Arrays] - Various array related runtime functions
 
-[ReferenceLibraryAssertions Assertions - Checking the runtime state of an application]
+[ReferenceLibraryAssertions Assertions] - Checking the runtime state of an application
 
-[ReferenceLibraryCollection Collection - Unordered set of items]
+[ReferenceLibraryCollection Collection] - Unordered set of items
 
-[ReferenceLibraryConversions Conversions - Various conversion related runtime functions]
+[ReferenceLibraryConversions Conversions] - Various conversion related runtime functions
 
-[ReferenceLibraryDates	 Reference: Dates - Various date and time related runtime functions]
+[ReferenceLibraryDates Dates] - Various date and time related runtime functions
 
-[ReferenceLibraryFiles Files - Various file related runtime functions]
+[ReferenceLibraryFiles Files] - Various file related runtime functions
  
-[ReferenceLibraryLog Log - Logging related runtime functions]
+[ReferenceLibraryLog Log] - Logging related runtime functions
 
-[ReferenceLibraryMath Math - Various mathematical runtime functions]
+[ReferenceLibraryMath Math] - Various mathematical runtime functions
 
-[ReferenceLibraryStrings Strings - Various string related runtime functions]
+[ReferenceLibraryStrings Strings] - Various string related runtime functions
 
 = Runtime Errors =
 
-[ReferenceLibraryArrayIndexOutOfBoundsError ArrayIndexOutOfBoundsError - Indicates an array access with an index that is outside of the array bound]
+[ReferenceLibraryArrayIndexOutOfBoundsError ArrayIndexOutOfBoundsError] - Indicates an array access with an index that is outside of the array bound
 
-[ReferenceLibraryAssertionFailure AssertionFailure - Indicates an assertion failure]
+[ReferenceLibraryAssertionFailure AssertionFailure] - Indicates an assertion failure
 
-[ReferenceLibraryConversionError ConversionError - Indicates a failed attempt to convert a value of one type into another]
+[ReferenceLibraryConversionError ConversionError] - Indicates a failed attempt to convert a value of one type into another
 
-[ReferenceLibraryFileAlreadyExistsError FileAlreadyExistsError - Indicates a failed attempt to create a file]
+[ReferenceLibraryFileAlreadyExistsError FileAlreadyExistsError] - Indicates a failed attempt to create a file
 
-[ReferenceLibraryFileIOError FileIOError - Indicates a problem accessing a file]
+[ReferenceLibraryFileIOError FileIOError] - Indicates a problem accessing a file
 
-[ReferenceLibraryIllegalArgumentError IllegalArgumentError - Indicates an illegal value for a function or procedure argument]
+[ReferenceLibraryIllegalArgumentError IllegalArgumentError] - Indicates an illegal value for a function or procedure argument
 
-[ReferenceLibraryNoSuchFileError NoSuchFileError - Indicates that no file for the given name could be found]
+[ReferenceLibraryNoSuchFileError NoSuchFileError] - Indicates that no file for the given name could be found
 
-[ReferenceLibraryUninitializedInstanceError UninitializedInstanceError - Indicates access to uninitialized object or array variable]
+[ReferenceLibraryPropertyAccessError PropertyAccessError] - Indicates illegal access to a property
 
-[ReferenceLibraryUnknownFileHandleError UnknownFileHandleError - Indicates usage of an unknown file handle]
+[ReferenceLibraryUninitializedInstanceError UninitializedInstanceError] - Indicates access to uninitialized object or array variable
+
+[ReferenceLibraryUnknownFileHandleError UnknownFileHandleError] - Indicates usage of an unknown file handle
