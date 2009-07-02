@@ -9,11 +9,11 @@ Two-state button that can either be checked or unchecked.
 
 [ReferenceComponentCheckBox#Initialize Initialize]
          Initialization event.
-[ReferenceComponentButton#Changed Changed]
+[ReferenceComponentCheckBox#Changed Changed]
           Change event.
-[ReferenceComponentButton#GotFocus GotFocus]
+[ReferenceComponentCheckBox#GotFocus GotFocus]
           Focus received event.
-[ReferenceComponentButton#LostFocus LostFocus]
+[ReferenceComponentCheckBox#LostFocus LostFocus]
           Focus lost event.
 
 ==== Properties ====
