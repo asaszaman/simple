@@ -22,6 +22,8 @@ Component for displaying images.
           Property for controlling the row position when using a table layout.
 [ReferenceComponentImage#Width Width]
           Property for controlling the component's width.
+[ReferenceComponentImage#Picture Picture]
+          Property for controlling the component's image.
 
 ----
 === Initialize ===
@@ -31,14 +33,6 @@ Event Initialize()
 }}}
 
     Event raised upon component initialization.
-----
-=== Click ===
-
-{{{
-Event Click()
-}}}
-
-    Event raised after the button is clicked or touched.
 ----
 === !BackgroundColor ===
 
@@ -81,3 +75,11 @@ Property Width As Integer
 }}}
 
      Reading from the Width property returns the current width of the component in pixels. Writing to the Width property changes the width of the component to the given value in pixels. There are two special values. `Component.LENGTH_PREFERRED` sets the preferred width of the component which depends on the contents of the component. `Component.LENGTH_FILL_PARENT` sets the width of the component to its maximum to fill the width of its parent container.
+----
+=== Picture ===
+
+{{{
+Property Picture As String
+}}}
+
+     Writing to this property changes the image shown on the component. The value assigned to this property should be the name of a file in the project's assets directory. This property is write-only.
