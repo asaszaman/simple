@@ -81,3 +81,14 @@ Property Width As Integer
 }}}
 
      Reading from the Width property returns the current width of the component in pixels. Writing to the Width property changes the width of the component to the given value in pixels. There are two special values. `Component.LENGTH_PREFERRED` sets the preferred width of the component which depends on the contents of the component. `Component.LENGTH_FILL_PARENT` sets the width of the component to its maximum to fill the width of its parent container.
+----
+=== Layout ===
+
+{{{
+Property Layout As Variant
+}}}
+
+     Reading from the Layout property returns the current layout object instance. For more information about layouts see LinearLayout, TableLayout and FrameLayout. Writing to the Layout property changes the layout to a different layout. The following predefined constants can be used: `Component.LAYOUT_LINEAR`, `Component.LAYOUT_TABLE` or `Component.LAYOUT_FRAME`.
+
+    Note that once components have been added to the panel its layout cannot be changed any longer!
+
