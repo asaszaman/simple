@@ -43,3 +43,5 @@
 [ReferenceLibraryUninitializedInstanceError UninitializedInstanceError] - Indicates access to uninitialized object or array variable
 
 [ReferenceLibraryUnknownFileHandleError UnknownFileHandleError] - Indicates usage of an unknown file handle
+
+[ReferenceLibraryUnknownIdentifierError UnknownIdentifierError] - Indicates that an identifier could not be resolved at runtime
