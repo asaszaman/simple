@@ -69,6 +69,20 @@ Event MenuSelected(caption As String)
     Also see [ReferenceLibraryApplication#AddMenuItem Application.AddMenuItem()].
 
 ----
+=== !TouchGesture ===
+
+{{{
+Event TouchGesture(direction As Integer)
+}}}
+
+    Event raised after input of a gesture on the touch screen was recognized. 
+
+    Parameters:
+        direction - constant identifying direction of touch gesture (one of `Component.TOUCH_DOUBLETAP`,  `Component.TOUCH_FLINGDOWN`, `Component.TOUCH_FLINGLEFT`, `Component.TOUCH_FLINGRIGHT`, `Component.TOUCH_FLINGUP`, `Component.TOUCH_MOVEDOWN`, `Component.TOUCH_MOVELEFT`, `Component.TOUCH_MOVERIGHT`, `Component.TOUCH_MOVEUP` or `Component.TOUCH_TAP`)
+
+    Also see [ReferenceLibraryApplication#AddMenuItem Application.AddMenuItem()].
+
+----
 === !BackgroundColor ===
 
 {{{
