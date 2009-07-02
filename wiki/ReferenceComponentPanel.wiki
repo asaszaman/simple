@@ -22,6 +22,8 @@ A panel is a container for other components including other nested panels.
           Property for controlling the row position when using a table layout.
 [ReferenceComponentPanel#Width Width]
           Property for controlling the component's width.
+[ReferenceComponentPanel#Layout Layout]
+          Property for controlling the component's layout.
 
 ----
 === Initialize ===
@@ -91,4 +93,3 @@ Property Layout As Variant
      Reading from the Layout property returns the current layout object instance. For more information about layouts see LinearLayout, TableLayout and FrameLayout. Writing to the Layout property changes the layout to a different layout. The following predefined constants can be used: `Component.LAYOUT_LINEAR`, `Component.LAYOUT_TABLE` or `Component.LAYOUT_FRAME`.
 
     Note that once components have been added to the panel its layout cannot be changed any longer!
-
