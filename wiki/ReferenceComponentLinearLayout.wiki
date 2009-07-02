@@ -16,6 +16,5 @@ Layout for placing components horizontally or vertically. When choosing horizont
 Property Orientation As Integer
 }}}
 
-    This property to set the orientation of the linear layout. The assigned value must be either `Component.LAYOUT_ORIENTATION_HORIZONTAL` or `Component.LAYOUT_ORIENTATION_VERTICAL`.
+    This property sets the orientation of the linear layout. The assigned value must be either `Component.LAYOUT_ORIENTATION_HORIZONTAL` or `Component.LAYOUT_ORIENTATION_VERTICAL`.
     This property is write-only.
-
