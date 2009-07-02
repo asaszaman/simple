@@ -81,11 +81,13 @@ The [http://docs.google.com/View?id=dd2q5z8t_3fjn6wxfq Simple Language Specifica
 Dynamic forms must be created in the Initialize event handler of a form. There is a special form of the New operator that instantiates a component as well as places it into its container:
 
 {{{
+Event Test.Initialize()
   Dim table As Panel
   table = New Panel On Test
   table.Layout = Component.LAYOUT_TABLE
   table.Layout.Columns = cols
   table.Layout.Rows = rows
+End Event
 }}}
 
 For a larger sample see the [HowToWriteASimpleApplication#Tetris Tetris sample application].
