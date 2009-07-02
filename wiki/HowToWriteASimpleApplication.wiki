@@ -59,6 +59,8 @@ Should you need to uninstall a previously installed apk file, you can run `adb` 
 adb uninstall com.mydomain.test
 }}}
 
+== Signing an Application for Release ==
+
 == Static Forms vs. Dynamic Forms ==
 
 == Sample Applications ==
