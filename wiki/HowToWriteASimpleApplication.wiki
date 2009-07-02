@@ -1,4 +1,5 @@
 #summary How To Write A Simple Application
+#labels Featured
 
 = How To Write A Simple Application =
 
