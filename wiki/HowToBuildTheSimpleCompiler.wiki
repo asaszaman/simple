@@ -1,4 +1,5 @@
 #summary How To Build The Simple Compiler and Runtime Library
+#labels Featured
 
 = How To Build The Simple Compiler and Runtime Library =
 
@@ -33,4 +34,3 @@ ant clean all
 }}}
 
 The built Simple compiler can now be found in SIMPLE_HOME. On Windows its name is `simplec.bat`, on Mac or Linux it is simply `simplec`. 
-
