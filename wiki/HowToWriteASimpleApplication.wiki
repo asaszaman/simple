@@ -61,7 +61,7 @@ adb uninstall com.mydomain.test
 
 == Signing an Application for Release ==
 
-By default the Simple compiler signs application with a debug key. This is not sufficient for actually releasing applications. To sign an application for release you need to add two line to the project file which can be found at `Test/simpleproject/project.properties':
+By default the Simple compiler signs application with a debug key. This is not sufficient for actually releasing applications. To sign an application for release you need to add two line to the project file which can be found at `Test/simpleproject/project.properties`:
 
 {{{
 key.location=<location of your key file>
@@ -70,7 +70,8 @@ key.alias=<key alias>
 
 After making these changes you can rebuild your project. You will be prompted for your key password during the build. After the build finished you can deploy your application.
 
+For more information on signing Android applications and key files see the [http://developer.android.com/guide/publishing/app-signing.html Android documentation].
+
 == Static Forms vs. Dynamic Forms ==
 
 == Sample Applications ==
-
