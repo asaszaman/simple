@@ -24,8 +24,6 @@
 
 = Runtime Errors =
 
-[ReferenceLibraryArrayIndexOutOfBoundsError ArrayIndexOutOfBoundsError] - Indicates an array access with an index that is outside of the array bound
-
 [ReferenceLibraryAssertionFailure AssertionFailure] - Indicates an assertion failure
 
 [ReferenceLibraryConversionError ConversionError] - Indicates a failed attempt to convert a value of one type into another
@@ -35,6 +33,8 @@
 [ReferenceLibraryFileIOError FileIOError] - Indicates a problem accessing a file
 
 [ReferenceLibraryIllegalArgumentError IllegalArgumentError] - Indicates an illegal value for a function or procedure argument
+
+[ReferenceLibraryIndexOutOfBoundsError IndexOutOfBoundsError] - Indicates an array or collection access with an index that is outside of bounds
 
 [ReferenceLibraryNoSuchFileError NoSuchFileError] - Indicates that no file for the given name could be found
 
