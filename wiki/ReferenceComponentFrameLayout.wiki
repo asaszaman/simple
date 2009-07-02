@@ -1,6 +1,6 @@
 #summary Reference: FrameLayout - Layout for prominently showing a single component
 
 ,,namespace com.google.devtools.simple.runtime.components,,
-= FrameLayout =
+= !FrameLayout =
 
-Layout for prominently showing a single component. If there are multiple component in the container then only the component last added will be shown.
+Layout for prominently showing a single component. If there are multiple components in the container then only the component last added will be shown.
