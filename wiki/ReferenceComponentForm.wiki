@@ -117,7 +117,7 @@ Property Width As Integer
 Property BackgroundImage As String
 }}}
 
-     Writing to this property changes the background image shown on the component. The value assigned to this property should be the name of a file in projects assets directory. This property is write-only.
+     Writing to this property changes the background image shown on the component. The value assigned to this property should be the name of a file in the project's assets directory. This property is write-only.
 ----
 === Layout ===
 
