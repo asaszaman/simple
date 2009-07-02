@@ -74,4 +74,21 @@ For more information on signing Android applications and key files see the [http
 
 == Static Forms vs. Dynamic Forms ==
 
+
+
 == Sample Applications ==
+
+The Simple source distribution comes with several sample applications which can be found in samples folder:
+
+=== EtchSketch ===
+
+A very small program that uses several sensors and a canvas component to simulate an Etch-A-Sketch.
+
+=== SpeedDialer ===
+
+Another very small program that just dials a phone number embedded in the source code. Starting the program calls the number. In short: a one-touch dialer.
+
+=== Tetris ===
+
+This a little bit larger application of a Tetris like game. It shows how to create forms dynamically. It also uses gestures to control the falling blocks.
+
