@@ -81,3 +81,11 @@ Property Width As Integer
 }}}
 
      Reading from the Width property returns the current width of the form in pixels. For forms the Width property is a read-only property.
+----
+=== !BackgroundImage ===
+
+{{{
+Property BackgroundImage As String
+}}}
+
+     Writing to this property changes the background image shown on the component. The value assigned to this property should be the name of a file in projects assets directory. This property is write-only.
