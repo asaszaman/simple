@@ -46,14 +46,6 @@ Event Initialize()
 
     Event raised upon component initialization.
 ----
-=== Click ===
-
-{{{
-Event Click()
-}}}
-
-    Event raised after the button is clicked or touched.
-----
 === !BackgroundColor ===
 
 {{{
