@@ -19,7 +19,7 @@ This distribution of Simple contains commandline tools only. Currently there are
 
 == Simple Language Specification ==
 
-The [http://docs.google.com/View?id=dd2q5z8t_3fjn6wxfq Simple Language Specification] is neither a tutorial for general programming nor programming in Simple. Nevertheless it contains numerous examples to illustrate the usage of the Simple programming language.
+The [http://docs.google.com/View?id=dd2q5z8t_3fjn6wxfq Simple Language Specification] is neither a tutorial for general programming nor programming in Simple. Nevertheless it contains examples to illustrate the usage of the Simple programming language.
 
 == API Reference ==
 
@@ -30,6 +30,14 @@ See the [RuntimeLibraryReference Runtime Library Reference].
 See the [ComponentReference Component Reference].
 
 == Creating A New Project ==
+
+The Simple distribution comes with a tool to create a new Simple skeleton project. Assuming that you also added root directory of the Simple distribution to your PATH environment variable, you can run the following command:
+
+{{{
+newsimpleproject com.mydomain.test.Test
+}}}
+
+This will create a folder name Test in your current directory which contains a new Simple project. The main form for this project can be found in `Test/src/com/mydomain/test/Test.simple`.
 
 == Building And Deploying A Project ==
 
