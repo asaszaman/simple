@@ -17,7 +17,7 @@ In addition, we enforce the following style rules:
    # Indentation: 2 spaces (or 4 if that leads to confusing code), no tabs.
    # Line length: 100 columns
    # Comments: Inside of methods use // exclusively
-   # Acronyms are words: Treat acronyms as words in names, yielding XmlHttpRequest, getUrl(), etc.
+   # Acronyms are words: Treat acronyms as words in names, yielding !XmlHttpRequest, getUrl(), etc.
    # TODO style: "TODO: Write this description."
    # Member variable naming: don't use s/m prefixes or underscore suffixes
    # File encoding: Use UTF-8
@@ -49,4 +49,3 @@ Whenever fixing bugs or writing new code make sure there is a test accompanying 
 
 == Writing Libraries and Components ==
 For information on writing new Simple runtime libraries and components see the [http://docs.google.com/View?id=dd2q5z8t_4cpbrnww6 Simple Component Writer's Guide].
-
