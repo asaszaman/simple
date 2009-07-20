@@ -20,7 +20,7 @@ This distribution of Simple contains commandline tools only. Currently there are
 
 == Simple Language Specification ==
 
-The [http://docs.google.com/View?id=dd2q5z8t_3fjn6wxfq Simple Language Specification] is neither a tutorial for general programming nor programming in Simple. Nevertheless it contains examples to illustrate the usage of the Simple programming language.
+The [http://simple.googlecode.com/files/Simple_Language_Definition.pdf Simple Language Specification] is neither a tutorial for general programming nor programming in Simple. Nevertheless it contains examples to illustrate the usage of the Simple programming language.
 
 == API Reference ==
 
@@ -77,7 +77,7 @@ For more information on signing Android applications and key files see the [http
 
 Simple forms can be constructed in two ways: either statically, as part of the source file, or dynamically inside the Initialize event handler of the form.
 
-The [http://docs.google.com/View?id=dd2q5z8t_3fjn6wxfq Simple Language Specification] describes in its appendix the structure of statically defined forms. Note that layout properties must must be the first properties for a container to be defined ahead of any other properties or any child components.
+The [http://simple.googlecode.com/files/Simple_Language_Definition.pdf Simple Language Specification] describes in its appendix the structure of statically defined forms. Note that layout properties must must be the first properties for a container to be defined ahead of any other properties or any child components.
 
 Dynamic forms must be created in the Initialize event handler of a form. There is a special form of the New operator that instantiates a component as well as places it into its container:
 
