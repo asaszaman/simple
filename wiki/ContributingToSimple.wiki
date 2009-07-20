@@ -48,4 +48,4 @@ ${ANDROID_HOME}/tools/adb install -r ${SIMPLE_HOME}/../../tests/com/google/devto
 Whenever fixing bugs or writing new code make sure there is a test accompanying the change.
 
 == Writing Libraries and Components ==
-For information on writing new Simple runtime libraries and components see the [http://docs.google.com/View?id=dd2q5z8t_4cpbrnww6 Simple Component Writer's Guide].
+For information on writing new Simple runtime libraries and components see the [http://simple.googlecode.com/files/Simple_Component_Writer_s_Guide.pdf Simple Component Writer's Guide].
