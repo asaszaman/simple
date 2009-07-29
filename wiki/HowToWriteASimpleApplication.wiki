@@ -10,7 +10,7 @@ The first step is to either download the appropriate Simple distribution for you
 In addition to the Simple distribution you also need to have to following software installed on your computer:
 
   * Java SDK or JRE version 1.6 or newer
-  * Android SDK version 1.5 or newer
+  * [http://developer.android.com/sdk/1.5_r3/index.html Android SDK version 1.5 or newer]
 
 This distribution of Simple contains commandline tools only. Currently there are no IDEs that support Simple available. That means that you will have to invoke the Simple compiler from a command shell. In order for the Simple compiler to find all necessary files, you will have to define the following environment variables:
 
