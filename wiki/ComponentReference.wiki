@@ -18,6 +18,8 @@
 
 [ReferenceComponentLabel Label] - Text display
 
+[ReferenceComponentLocationSensor LocationSensor] - Sensor to provide information about the current location
+
 [ReferenceComponentOrientationSensor OrientationSensor] - Sensor to measure absolute orientation in 3 dimensions
 
 [ReferenceComponentPanel Panel] - Container for other components
