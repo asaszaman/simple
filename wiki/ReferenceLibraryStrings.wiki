@@ -65,7 +65,7 @@ Static Function InStrRev(str1 As String, str2 As String, start As Integer) As In
     Returns:
         index at which str2 was found within str1 or a negative value if str2 was not found within str1
 ----
-=== !LCase ===
+=== LCase ===
 
 {{{
 Static Sub LCase(ByRef str As String)
@@ -76,7 +76,7 @@ Static Sub LCase(ByRef str As String)
     Parameters:
         str - string to convert to lowercase
 ----
-=== !UCase ===
+=== UCase ===
 
 {{{
 Static Sub  UCase(ByRef str As String)
@@ -154,7 +154,7 @@ Static Sub Trim(ByRef str As String)
     Parameters:
         str - string to trim
 ----
-=== !LTrim ===
+=== LTrim ===
 
 {{{
 Static Sub LTrim(ByRef str As String)
