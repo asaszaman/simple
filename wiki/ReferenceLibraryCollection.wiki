@@ -11,7 +11,7 @@ A collection is an ordered set of items. Unlike arrays where all members must ha
           Removes all items from the collection.
 [ReferenceLibraryCollection#Contains Contains]
           Checks whether an item is already part of the collection.
- [ReferenceLibraryCollection#Count Count]
+[ReferenceLibraryCollection#Count Count]
           Returns the number of items in the collection.
 [ReferenceLibraryCollection#Item Item]
           Returns the item at the specified position.
@@ -53,13 +53,10 @@ Function Item(index As Integer) As Variant
 === Count ===
 
 {{{
-Function Count() As Integer
+Property Count As Integer
 }}}
 
-    Returns the number of items in the collection.
-
-    Returns:
-        number of items in the collection
+    Returns the number of items in the collection. This is a read-only property.
 ----
 === Contains ===
 
@@ -84,4 +81,3 @@ Sub Remove(item As Variant)
 
     Parameters:
         item - item to remove
-
