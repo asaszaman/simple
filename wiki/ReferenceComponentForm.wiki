@@ -80,8 +80,6 @@ Event TouchGesture(direction As Integer)
     Parameters:
         direction - constant identifying direction of touch gesture (one of `Component.TOUCH_DOUBLETAP`,  `Component.TOUCH_FLINGDOWN`, `Component.TOUCH_FLINGLEFT`, `Component.TOUCH_FLINGRIGHT`, `Component.TOUCH_FLINGUP`, `Component.TOUCH_MOVEDOWN`, `Component.TOUCH_MOVELEFT`, `Component.TOUCH_MOVERIGHT`, `Component.TOUCH_MOVEUP` or `Component.TOUCH_TAP`)
 
-    Also see [ReferenceLibraryApplication#AddMenuItem Application.AddMenuItem()].
-
 ----
 === !BackgroundColor ===
 
