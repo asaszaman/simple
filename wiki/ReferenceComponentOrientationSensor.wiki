@@ -23,9 +23,9 @@ Sensor that can measure absolute orientation in 3 dimensions.
 [ReferenceComponentOrientationSensor#Roll Roll]
           Roll property (read-only property).
 [ReferenceComponentOrientationSensor#Angle Angle]
-          Property indication the angle of the current device tilt (read-only property).
+          Property indicating the angle of the current device tilt (read-only property).
 [ReferenceComponentOrientationSensor#Magnitude Magnitude]
-          Property indication the mangnitude of the current device tilt (read-only property).
+          Property indicating the magnitude of the current device tilt (read-only property).
 ----
 === Initialize ===
 
