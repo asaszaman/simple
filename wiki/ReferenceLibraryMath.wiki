@@ -259,7 +259,7 @@ Static Function DegreesToRadians(d As Double) As Double
 === !RadiansToDegrees ===
 
 {{{
-Static Functions RadiansToDegrees(r As Double) As Double
+Static Function RadiansToDegrees(r As Double) As Double
 }}}
 
     Converts an angle measured in radians to an approximation in degrees.
